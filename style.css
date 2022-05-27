@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    background: #F4F5FC;
+}
+.wrapper{
+    padding: 20px;
+    
+}
+
+@font-face{
+    font-family: "Varent Grotesk";
+    src:url("/fonts/AnyConv.com__VarentGrotesk-Bold.ttf") ;
+}
+.star{
+    position: absolute;
+    right: 10px;
+    height: 75px;
+    left: 68.53%;
+    top: 15px;
+    
+}
+.large-img{
+    position: relative;
+}
+.star-im{
+    position: absolute;
+    right: 10px;
+    height: 45px;
+    left: 94.1%;
+    top: 11px;
+}
+.line{
+    position: absolute;
+    top: 100px;
+    left: 90%;
+    width: 100px;
+    height: 140px;
+    transform: rotate(1.28deg);
+    padding: 0px;
+}
+.logo_img{
+    width: 35px;
+    height: 64px;
+    margin-right: 20px;
+}
+.logo-word{ 
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 560;
+font-size: 40px;
+color: #323131;
+}
+.nav-home-img{
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 70px;*/
+}
+.navbar-nav{
+    --bs-nav-link-padding-y: 0rem; 
+}
+.nav-link{ 
+    color: #5C5555;
+}
+
+.word-product{
+    color: #F55709;
+    margin-left:0px;
+    padding-bottom: 0px;
+}
+.vector-home{
+    width: 90px;
+    height: 7px;
+}
+.sign-in-button{
+    border-radius: 0px;
+    border-color: #F55709;
+    width: 200px;
+    height: 55px;
+    color: #F55709;
+}
+.log-in-button{
+    color: #1A1A1A;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-weight: 470;
+    text-decoration: none;
+}
+
+.row{
+    margin-top: 52px;
+   /* margin-left: 80px;*/
+}
+.main-text{
+    font-family:"Varent Grotesk";
+    font-weight: 700;
+    font-size: 76px;
+    position: relative;
+}
+.my-btn{
+    background: #F55709;
+    width: 208px;
+    height: 64px;
+    color: #F8F8F8;
+    font-family:'Oxanium', cursive;
+    border-radius: 0px;
+    border-color:#F55709;
+    margin-top: 20px;
+    margin-left: -85px;
+   
+}
+.small-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    opacity: 70%;
+    letter-spacing: 0.05em;
+    line-height: 35px;
+    position: relative;
+   
+}
+.first-group{
+    flex-direction: column;
+    justify-content: center; 
+}
+.nav-item{
+    display: flex;
+}
+.num{
+    display: flex;
+    flex-direction: column;    
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+.col-nums{
+    margin-top: -10px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.numbers{
+    font-family:"Varent Grotesk" ;
+    font-weight: 700px;
+    font-size: 40px;
+    color: #323131;
+    margin-bottom: 0px;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+.num-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-weight: 350;
+    letter-spacing:-1px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.third{
+   margin-left: -30px;
+}
+.row{
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.explore{
+   
+    font-family:"Varent Grotesk" ;
+}
+.white-renc{
+    margin-top: -30px;
+}
+.text{
+    margin-top: -70px;
+    margin-left: -50px;
+}
+.queen{
+    color: #323131;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    letter-spacing:-1px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.get-complex{
+    color: #F55709;
+    font-size: 20px;
+    font-weight: 350;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.arrow{
+    margin-top: -35px;
+    margin-left: 130px;
+}
+
+
+@media (min-width: 500px) {
+    .wrapper{
+        padding: 20px;
+    }
+
+}
