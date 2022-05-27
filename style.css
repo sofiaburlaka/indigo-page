@@ -9,7 +9,7 @@ body{
 
 @font-face{
     font-family: "Varent Grotesk";
-    src:url("/fonts/AnyConv.com__VarentGrotesk-Bold.ttf") ;
+    src:url("AnyConv.com__VarentGrotesk-Bold.ttf") ;
 }
 .star{
     position: absolute;
@@ -31,12 +31,12 @@ body{
 }
 .line{
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 90%;
-    width: 100px;
-    height: 140px;
+    width: 80px;
+    height: 120px;
     transform: rotate(1.28deg);
-    padding: 0px;
+    
 }
 .logo_img{
     width: 35px;
